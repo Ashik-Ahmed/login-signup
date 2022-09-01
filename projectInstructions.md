@@ -26,6 +26,6 @@ npm install react-hook-form <br/>
 	import 'react-toastify/dist/ReactToastify.css'; <br/>
 	import { ToastContainer } from 'react-toastify';
 	
-3.1 Add this after &lt;Footer/&gt;
+3.1 Add this after &lt;Footer/&gt; <br/>
 	&lt;ToastContainer/&gt;
 
