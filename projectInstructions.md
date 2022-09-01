@@ -9,7 +9,7 @@ npm install react-hook-form <br/>
 
 
 1. Open index.js and wrap the App with BrowserRouter
-	BrowserRouter
+	&lt;BrowserRouter&gt;
       		App 
     	BrowserRouter
 
@@ -27,5 +27,5 @@ npm install react-hook-form <br/>
 	import { ToastContainer } from 'react-toastify';
 	
 3.1 Add this after Footer
-	"<ToastContainer/>"
+	ToastContainer
 
