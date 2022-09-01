@@ -8,10 +8,10 @@ npm install react-icons --save <br/>
 npm install react-hook-form <br/>
 
 
-1. Open index.js and wrap the App with &lt;BrowserRouter/&gt;
-	&lt;BrowserRouter/&gt;
-      		&lt;App/&gt;
-    	&lt;BrowserRouter/&gt;
+1. Open index.js and wrap the App with &lt;BrowserRouter/&gt; <br/>
+	&lt;BrowserRouter/&gt; <br/>
+      		&lt;App/&gt; <br/>
+    	&lt;BrowserRouter/&gt; <br/>
 
 2. Create firebase.init.js file inside src directory and paste the code copied from firebase <br/>
 2.1 Add below code to firebase.init.js
