@@ -8,10 +8,10 @@ npm install react-icons --save <br/>
 npm install react-hook-form <br/>
 
 
-1. Open index.js and wrap the App with BrowserRouter
-	&lt;BrowserRouter&gt;
-      		App 
-    	BrowserRouter
+1. Open index.js and wrap the App with &lt;BrowserRouter/&gt;
+	&lt;BrowserRouter/&gt;
+      		&lt;App/&gt;
+    	&lt;BrowserRouter/&gt;
 
 2. Create firebase.init.js file inside src directory and paste the code copied from firebase <br/>
 2.1 Add below code to firebase.init.js
@@ -22,10 +22,10 @@ npm install react-hook-form <br/>
 	const auth = getAuth(app); <br/>
 	export default auth;
 
-3. import toastify css files and ToastContainer into App.js <br/>
+3. import toastify css files and &lt;ToastContainer/&gt; into App.js <br/>
 	import 'react-toastify/dist/ReactToastify.css'; <br/>
 	import { ToastContainer } from 'react-toastify';
 	
-3.1 Add this after Footer
-	ToastContainer
+3.1 Add this after &lt;Footer/&gt;
+	&lt;ToastContainer/&gt;
 
