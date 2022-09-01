@@ -1,11 +1,11 @@
 ## Run the below commands first
 
-npm install react-router-dom@6
-npm install firebase
-npm install --save react-firebase-hooks
-npm install --save react-toastify
-npm install react-icons --save
-npm install react-hook-form
+npm install react-router-dom@6 <br/>
+npm install firebase <br/>
+npm install --save react-firebase-hooks <br/>
+npm install --save react-toastify <br/>
+npm install react-icons --save <br/>
+npm install react-hook-form <br/>
 
 
 1. Open index.js and wrap the <App/> with <BrowserRouter>
